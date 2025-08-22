@@ -1,3 +1,5 @@
+[![CI](https://github.com/applowiec/passport-commit-test/actions/workflows/ci.yml/badge.svg)](https://github.com/applowiec/passport-commit-test/actions/workflows/ci.yml)
+
 <p align="left">
   <a href="https://github.com/applowiec/passport-commit-test/stargazers"><img alt="GitHub Stars" src="https://img.shields.io/github/stars/applowiec/passport-commit-test?style=flat"></a>
   <a href="https://github.com/applowiec/passport-commit-test/issues"><img alt="GitHub Issues" src="https://img.shields.io/github/issues/applowiec/passport-commit-test?style=flat"></a>
