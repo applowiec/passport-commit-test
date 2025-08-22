@@ -11,3 +11,7 @@ Projekt stara się przestrzegać [SemVer](https://semver.org/lang/pl/).
 - Dodano plik `CHANGELOG.md` (Keep a Changelog).
 - Dodano szablony zgłoszeń: `.github/ISSUE_TEMPLATE/bug_report.md` i `feature_request.md`.
 
+
+## [0.1.1] - 2025-08-22
+### Changed
+- Maintenance release: aktualizacja dokumentacji i plików konfiguracyjnych.
