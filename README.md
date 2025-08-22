@@ -1,3 +1,5 @@
+[![website](https://img.shields.io/badge/docs-live-blue)](https://applowiec/passport-commit-test.github.io/)
+
 
 [![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/applowiec/passport-commit-test?sort=semver)](https://github.com/applowiec/passport-commit-test/releases)
 
