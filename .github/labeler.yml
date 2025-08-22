@@ -1,0 +1,6 @@
+area/docs:
+  - docs/**
+area/ci:
+  - .github/workflows/**
+area/build:
+  - Dockerfile
