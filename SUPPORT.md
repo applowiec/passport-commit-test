@@ -1,4 +1,2 @@
-# Wsparcie
-- Sprawdź README/Issues
-- Użyj szablonów zgłoszeń
-- Krytyczne sprawy: patrz SECURITY.md
+# Support
+Use Issues for bug reports, Discussions for Q&A.
