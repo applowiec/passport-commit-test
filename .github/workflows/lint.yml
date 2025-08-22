@@ -1,0 +1,32 @@
+name: Lint
+on:
+  pull_request:
+  push:
+    branches: [ "main" ]
+permissions:
+  contents: read
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check shell syntax (*.sh)
+        run: |
+          set -e
+          shopt -s nullglob
+          files=( $(git ls-files '*.sh') )
+          if [ ${#files[@]} -gt 0 ]; then
+            for f in "${files[@]}"; do
+              bash -n "$f"
+            done
+          fi
+      - name: Fail on trailing whitespace (md|yml|yaml|sh)
+        run: |
+          set -e
+          tw=$(git ls-files '*.md' '*.yml' '*.yaml' '*.sh' | xargs -I{} grep -nE "[[:space:]]$" "{}" || true)
+          if [ -n "$tw" ]; then
+            echo "::error::Trailing whitespace found in:"
+            echo "$tw"
+            exit 1
+          fi
