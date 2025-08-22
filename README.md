@@ -1,3 +1,5 @@
+[![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/applowiec/passport-commit-test?sort=semver)](https://github.com/applowiec/passport-commit-test/releases)
+
 [![CI](https://github.com/applowiec/passport-commit-test/actions/workflows/ci.yml/badge.svg)](https://github.com/applowiec/passport-commit-test/actions/workflows/ci.yml) 
 [![Tests](https://github.com/applowiec/passport-commit-test/actions/workflows/test.yml/badge.svg)](https://github.com/applowiec/passport-commit-test/actions/workflows/test.yml) 
 [![Lint](https://github.com/applowiec/passport-commit-test/actions/workflows/lint.yml/badge.svg)](https://github.com/applowiec/passport-commit-test/actions/workflows/lint.yml)
