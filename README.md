@@ -1,3 +1,4 @@
+
 [![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/applowiec/passport-commit-test?sort=semver)](https://github.com/applowiec/passport-commit-test/releases)
 
 [![CI](https://github.com/applowiec/passport-commit-test/actions/workflows/ci.yml/badge.svg)](https://github.com/applowiec/passport-commit-test/actions/workflows/ci.yml) 
@@ -19,3 +20,5 @@ Mój pierwszy commit na GitHub — Jan Nowak, 15.08.2025
 Sobota, 16.08.2025
 - Commit for 2025-08-17 at 16:38:12
 - Commit for 2025-08-17 at 16:41:23
+
+[Instrukcja kontrybucji (PL)](CONTRIBUTING_PL.md)
