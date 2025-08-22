@@ -4,5 +4,3 @@ area/ci:
   - .github/workflows/**
 area/build:
   - Dockerfile
-
-refresh 2025-08-22-14:32:39
