@@ -1,3 +1,7 @@
+[![CI](https://github.com/applowiec/passport-commit-test/actions/workflows/ci.yml/badge.svg)](https://github.com/applowiec/passport-commit-test/actions/workflows/ci.yml) 
+[![Tests](https://github.com/applowiec/passport-commit-test/actions/workflows/test.yml/badge.svg)](https://github.com/applowiec/passport-commit-test/actions/workflows/test.yml) 
+[![Lint](https://github.com/applowiec/passport-commit-test/actions/workflows/lint.yml/badge.svg)](https://github.com/applowiec/passport-commit-test/actions/workflows/lint.yml)
+
 [![CI](https://github.com/applowiec/passport-commit-test/actions/workflows/ci.yml/badge.svg)](https://github.com/applowiec/passport-commit-test/actions/workflows/ci.yml)
 
 <p align="left">
