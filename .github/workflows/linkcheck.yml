@@ -1,0 +1,11 @@
+name: LinkCheck
+on: [push, pull_request]
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          set -e
+          urls=$(grep -rhoE 'https?://[^ )"]+' -- . | sort -u || true)
+          for u in $urls; do echo "Checking $u"; curl -Is --max-time 10 "$u" | head -n1; done
