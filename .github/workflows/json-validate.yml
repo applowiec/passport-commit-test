@@ -4,7 +4,7 @@ jobs:
   jsonlint:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - run: |
           for f in $(git ls-files '*.json'); do
             jq empty "$f"; done
